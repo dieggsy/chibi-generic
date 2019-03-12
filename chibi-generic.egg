@@ -1,0 +1,9 @@
+((author "Alex Shinn")
+ (maintainer "Diego A. Mundo")
+ (category lang-exts)
+ (license "BSD")
+ (test-dependencies test)
+ (component-options
+  (csc-options "-O3"))
+ (components
+  (extension chibi-generic (source "chibi-generic.scm"))))
