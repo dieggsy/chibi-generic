@@ -1,5 +1,6 @@
 ((author "Alex Shinn")
  (maintainer "Diego A. Mundo")
+ (synopsis "Chibi Scheme's simple generic function interface")
  (category lang-exts)
  (license "BSD")
  (test-dependencies test)
