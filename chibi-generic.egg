@@ -4,7 +4,9 @@
  (category lang-exts)
  (license "BSD")
  (test-dependencies test)
- (component-options
-  (csc-options "-O3"))
+ (component-options (csc-options "-O3"))
  (components
-  (extension chibi-generic (source "chibi-generic.scm"))))
+  (extension chibi.generic (source "chibi.generic.scm"))
+  (extension chibi-generic
+             (source "chibi-generic.scm")
+             (component-dependencies chibi.generic))))
