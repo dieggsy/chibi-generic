@@ -32,3 +32,4 @@
   (test 21.1 (mul 3.0 7.0)))
 
 (test-end)
+(test-exit)
