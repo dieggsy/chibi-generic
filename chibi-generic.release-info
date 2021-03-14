@@ -1,5 +1,5 @@
 ;; -*- mode: scheme -*-
-(repo git "git://github.com/dieggsy/chibi-generic.git")
+(repo git "git://github.com/dieggsy/{egg-name}.git")
 (uri targz "https://github.com/dieggsy/chibi-generic/archive/{egg-release}.tar.gz")
 (release "0.1.3")
 (release "0.1.2")
